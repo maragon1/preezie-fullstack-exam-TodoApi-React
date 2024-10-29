@@ -1,6 +1,6 @@
 # TodoAPI - React
 
-Live demo: [TodoAPI React](https://mark-aragon-preezie-react-463d1d033a64.herokuapp.com/]).
+Live demo: [TodoAPI React](https://mark-aragon-preezie-react-463d1d033a64.herokuapp.com/).
 
 This allows user to add task, toggle and delete.
 
