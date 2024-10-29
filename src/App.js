@@ -16,9 +16,11 @@ function App() {
     }, []);
 
     async function handleAddTodo() {
-        const newTodo = await addTodo(title);
-        setTodos((prevTodos) => [...prevTodos, newTodo]);
-        setTitle('');
+        if (!(!title || title.trim() === '')){
+          const newTodo = await addTodo(title);
+          setTodos((prevTodos) => [...prevTodos, newTodo]);
+          setTitle('');
+        }
     }
 
     async function handleToggleTodo(id) {
